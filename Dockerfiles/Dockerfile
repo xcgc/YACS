@@ -1,4 +1,4 @@
-FROM gcr.io/distroless/base-debian11
+FROM debian:stable-slim
 MAINTAINER Nicholas, contact@luminode.systems
 ENV DEBIAN_FRONTEND=noninteractive
 
